@@ -20,6 +20,12 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
 Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
+.
+.
+![Persona e Proposta de valor - Exploração 1](https://github.com/user-attachments/assets/793dcb6d-0a8f-4d33-acc3-13c439092d36)
+.
+.
+
 
 > **Links úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -40,6 +46,13 @@ Apresente aqui as histórias de usuários que são relevantes para o projeto da 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > O mapa da proposta de valor é uma ferramenta que auxilia na definição do tipo de produto ou serviço que melhor atende às personas previamente estabelecidas.
+> .
+![Persona e Proposta de valor - Quadro 6](https://github.com/user-attachments/assets/6f2b8297-9c32-4375-865e-65824f9a3e48)
+![Persona e Proposta de valor - Quadro 5](https://github.com/user-attachments/assets/c4f052da-9180-4e30-914d-727d587ac612)
+![Persona e Proposta de valor - Quadro 4](https://github.com/user-attachments/assets/f3bfa2b5-2296-47f4-96d9-7593161998c7)
+.
+> .
+> 
 
 
 > **Links úteis**:
@@ -55,6 +68,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | ------ | ---------------------------------------------------------- | ---------- |
 | RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
 | RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+
+
 
 ### Requisitos não funcionais
 
@@ -76,6 +91,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
   correspondem a uma característica técnica, seja de usabilidade,
   desempenho, confiabilidade, segurança ou outro (ex: suporte a
   dispositivos iOS e Android).
+  .
+  .
+  ![Persona e Proposta de valor - Quadro 7](https://github.com/user-attachments/assets/89b62f2b-74c3-4612-9dd5-0baf7f4950b5)
+  .
+  .
+
 
 Lembre-se de que cada requisito deve corresponder a uma e somente uma característica-alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas histórias de usuários foram cobertos.
 
