@@ -1,25 +1,29 @@
 # Nome do projeto
 
-`CURSO: Coloque o nome do curso aqui, sem abreviações`
+`CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
-`Xº semestre/ANO`
+`1º semestre/2025`
 
 Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+
+Uma série de perguntas que ajudem a avaliar o grau de vício da pessoa. Com base nas respostas, o site pode fornecer uma conclusão sobre o nível de vício (baixo, moderado ou alto) e sugerir recursos de ajuda.
+Após o questionário, mostrar os resultados com base nas respostas e dar algumas soluções, como procurar apoio profissional, grupos de apoio ou recursos para lidar com o vício.
+Uma seção de notícias atualizadas, que pode trazer histórias de jogadores, entrevistas com especialistas ou artigos sobre o impacto do vício em jogos de apostas.
+Links para organizações que tratam de vícios em jogos, como linhas de apoio, terapias e centros de reabilitação.
 
 ## Integrantes
 
 * Nome completo do aluno 1
 * Nome completo do aluno 2
-* Nome completo do aluno 3
+* Eric Gomes Cordeiro
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 * Nome completo do aluno 6
 
 ## Professor
-
-* Nome completo do(a) professor(a)
+Jardell Fellipe da Silva
 
 ## Instruções de utilização
 
