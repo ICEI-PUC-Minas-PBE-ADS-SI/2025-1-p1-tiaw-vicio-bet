@@ -15,12 +15,14 @@ Links para organizações que tratam de vícios em jogos, como linhas de apoio, 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
+* Alvaro Golçalves de Carvalho
+* Caio Rezende Barreto Sendin
 * Eric Gomes Cordeiro
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Marcelo
+* Miguel de Paula Gonçalves
+* Rafael Rios Oliveira de Souza
+* Raphael Henrique Oliveira Bicalho
+* Rodrigo Gonçalves Giancott Magalhães
 
 ## Professor
 Jardell Fellipe da Silva
