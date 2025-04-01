@@ -18,7 +18,7 @@ Links para organizações que tratam de vícios em jogos, como linhas de apoio, 
 * Alvaro Golçalves de Carvalho
 * Caio Rezende Barreto Sendin
 * Eric Gomes Cordeiro
-* Marcelo
+* Marcelo Henrique Alves Campolina
 * Miguel de Paula Gonçalves
 * Rafael Rios Oliveira de Souza
 * Raphael Henrique Oliveira Bicalho
