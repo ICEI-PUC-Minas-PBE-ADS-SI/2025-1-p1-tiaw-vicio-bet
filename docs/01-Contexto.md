@@ -1,12 +1,12 @@
 # Introdução
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
-.
-.
+
+
 O vício em jogos de apostas é uma preocupação crescente, especialmente em tempos modernos, onde as apostas online se tornaram cada vez mais acessíveis e populares. De acordo com pesquisas e estudos, o vício em jogos de apostas, também conhecido como gambling addiction ou jogo patológico, tem efeitos devastadores na vida financeira, emocional e social dos indivíduos que o enfrentam. Muitas vezes, os jogadores não conseguem perceber o quanto o comportamento de aposta está afetando negativamente suas vidas, o que dificulta o diagnóstico e a intervenção precoce.
 O fenômeno do vício em apostas é complexo, envolvendo questões psicológicas, sociais e econômicas. Ao mesmo tempo, o ambiente digital propicia que os jogos de apostas sejam acessados a qualquer momento, o que contribui para o aumento de comportamentos compulsivos. Por isso, é essencial desenvolver ferramentas educativas e de autoconhecimento para alertar as pessoas sobre os riscos do vício e ajudá-las a entender quando buscar ajuda.
-.
-.
+
+
 ## Problema
 Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.
 
