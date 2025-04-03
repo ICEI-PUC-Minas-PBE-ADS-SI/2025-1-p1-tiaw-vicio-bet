@@ -15,13 +15,6 @@
     ![Entrevistas sobre Vício - Quadro 2](https://github.com/user-attachments/assets/cc3514b6-e02c-4a51-8a0a-e98997a1f3af)
 
 
-
-
-
-
-> **Links úteis**:
-> - [Mapa de stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
-
 ## Etapa de definição
 
 ### Personas
@@ -33,13 +26,3 @@
 ![Persona e Proposta de valor - Quadro 3](https://github.com/user-attachments/assets/54f4a4e1-0acd-4855-a8a1-126fcf70c7ba)
 
 
-
-![Exemplo de persona](images/exemplo-persona.png)
-
-
-> **Links úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
