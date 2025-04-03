@@ -1,7 +1,5 @@
 # Product design
 
-<span style="color:red">Pré-requisitos: <a href="02-Product-discovery.md"> Product discovery</a></span>
-
 ## Histórias de usuários
 
 ![Persona e Proposta de valor - Exploração 1](https://github.com/user-attachments/assets/793dcb6d-0a8f-4d33-acc3-13c439092d36)
@@ -29,11 +27,15 @@
   
 ## Restrições
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-O projeto está restrito aos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre ⚠️ EXEMPLO ⚠️ |
-|002| Não é permitido o desenvolvimento de um módulo de back-end  ⚠️ EXEMPLO ⚠️  |
+| ID  | Restrição                                                                 |
+|-----|---------------------------------------------------------------------------|
+|001 | O projeto deverá ser entregue até o final do semestre.                    |
+|002 | O site deverá ser desenvolvido utilizando apenas HTML, CSS e JavaScript.  |
+|003 | Não é permitido o uso de banco de dados ou qualquer forma de back-end.    |
+|004 | O conteúdo do site deve ser acessível em dispositivos móveis (responsivo).|
+|005 | Não é permitido utilizar imagens ou vídeos com direitos autorais.         |
+|006 | O site não poderá conter anúncios ou links que incentivem apostas.        |
+|007 | A autoavaliação deve funcionar inteiramente no lado do cliente (frontend).|
+|008 | O site deve conter ao menos uma fonte confiável como referência informativa.|
+|009 | A autoavaliação deve apresentar um resultado final com base nas respostas.|
+|010 | O site deve seguir princípios básicos de acessibilidade e contraste visual.|
