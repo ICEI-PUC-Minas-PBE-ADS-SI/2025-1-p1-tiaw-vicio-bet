@@ -41,9 +41,7 @@ Documentação e entrega final
 Organização de todos os arquivos, documentação e apresentação dos resultados.
 
 
-## Relação de ambientes de trabalho
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+# Relação de ambientes de trabalho
 
 | **Ambiente**                   | **Plataforma**         | **Propósito**                                                | **Link de Acesso**                                                                 |
 | ------------------------------ | ---------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
@@ -53,6 +51,12 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A r
 | Desenvolvimento Local          | VS Code                | Ambiente de codificação local (HTML, CSS, JS)                | [https://code.visualstudio.com](https://code.visualstudio.com)                     |
 | Simulação de Back-End          | JSON Server            | Simulação de API RESTful para testes com dados dinâmicos     | [https://github.com/typicode/json-server](https://github.com/typicode/json-server) |                              |
 | Apresentação Final             | Google Slides / Canva  | Criação de slides para apresentação do projeto               | [https://www.canva.com](https://www.canva.com)                                     |
+
+
+| **Finalidade**                 | **Ferramenta/Framework**  | **Descrição**                                                                  |
+| ------------------------------ | ------------------------- | ------------------------------------------------------------------------------ |
+| Interface de Design Mobile     | **Figma (Mobile Frames)** | Criação dos protótipos e fluxos mobile responsivos                             |
+| Backend API REST (simulado)    | **JSON Server**           | Continuação da API REST usada na versão web                                    |
 
 ## Controle de versão
 
