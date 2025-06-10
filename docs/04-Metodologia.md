@@ -24,7 +24,7 @@ Comunicação:
 WhatsApp
 Atualizações semanais com revisão de progresso, dificuldades e ajustes de rota.
 
-## 04-  Processo de Desenvolvimento
+### 04-  Processo de Desenvolvimento
 Levantamento do problema e definição do escopo
 Discussão sobre o impacto do vício em apostas.
 Identificação de personas e definição de funcionalidades-chave.
