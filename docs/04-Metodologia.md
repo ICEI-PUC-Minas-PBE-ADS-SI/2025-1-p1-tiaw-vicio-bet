@@ -60,7 +60,6 @@ Organização de todos os arquivos, documentação e apresentação dos resultad
 
 ## Controle de versão
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR
 ## 01- Branch
 
 | **Branch** | **Descrição**                                                                 |
