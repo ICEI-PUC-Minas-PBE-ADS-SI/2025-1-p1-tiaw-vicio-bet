@@ -8,8 +8,25 @@
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados na parte de <a href="03-Product-design.md"> product design</a></span>.
 
  ## User flow
- 
-https://marvelapp.com/prototype/726f1i2/screen/96976997
+
+ Usuário acessa a Página Inicial
+
+Vai para Autoavaliação Interativa
+
+Visualiza o Relatório da Autoavaliação
+
+Recebe Recursos Personalizados
+
+Acessa a Biblioteca de Conteúdos ou vídeos
+
+Decide controlar seus gastos via Controle Financeiro
+
+Se sente tocado e resolve Compartilhar um depoimento
+
+Vê depoimentos de outros na Seção de Depoimentos Publicados
+
+Busca ajuda em Contatos Úteis
+
 
 ## Wireframes
 
@@ -21,10 +38,4 @@ https://marvelapp.com/prototype/726f1i2/screen/96976997
 
 ### Protótipo Interativo
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto das interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse utilizando o software finalizado. Utilize as mesmas ferramentas de criação de wireframes para a montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
-
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo interativo](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
+Prototipo interativo : https://marvelapp.com/prototype/726f1i2/screen/96976997
