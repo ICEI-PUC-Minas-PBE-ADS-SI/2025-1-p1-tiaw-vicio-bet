@@ -45,6 +45,15 @@ Organização de todos os arquivos, documentação e apresentação dos resultad
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
 
+| **Ambiente**                   | **Plataforma**         | **Propósito**                                                | **Link de Acesso**                                                                 |
+| ------------------------------ | ---------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Repositório de Código          | GitHub                 | Controle de versão, colaboração e publicação do código-fonte | [https://github.com](https://github.com)                                           |
+| Prototipação e Wireframes      | Figma                  | Criação de protótipos e interfaces interativas               | [https://www.figma.com](https://www.figma.com)                                     |                                           |
+| Comunicação e Reuniões         | WhatsApp                | Comunicação diária e reuniões de alinhamento                 |                                |
+| Desenvolvimento Local          | VS Code                | Ambiente de codificação local (HTML, CSS, JS)                | [https://code.visualstudio.com](https://code.visualstudio.com)                     |
+| Simulação de Back-End          | JSON Server            | Simulação de API RESTful para testes com dados dinâmicos     | [https://github.com/typicode/json-server](https://github.com/typicode/json-server) |                              |
+| Apresentação Final             | Google Slides / Canva  | Criação de slides para apresentação do projeto               | [https://www.canva.com](https://www.canva.com)                                     |
+
 ## Controle de versão
 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
