@@ -1,9 +1,45 @@
 
 # Metodologia
+## 01- Ambientes de Trabalho Utilizados
+A equipe utilizou uma combinação de ambientes locais e online para facilitar a colaboração e o desenvolvimento simultâneo das funcionalidades:
+VS Code: Cada integrante utilizou o Visual Studio Code como ambiente de desenvolvimento local, com extensões como Live Server e Prettier para facilitar testes e manter a padronização do código.
+JSON Server: Usado para simular uma API RESTful local, permitindo que o front-end fosse testado com dados dinâmicos sem depender de um back-end real.
+Chrome: Para testes constantes de usabilidade, responsividade e acessibilidade.
 
-<span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+## 02- Estrutura de Gestão do Código-Fonte
+A equipe organizou o código-fonte utilizando o Git e GitHub, seguindo práticas de versionamento e colaboração em repositório remoto:
+Git: Cada integrante configurou repositórios locais e realizou commits frequentes, com mensagens claras e padronizadas.
+GitHub:
+Repositório principal com branch main para a versão estável.
+Branches individuais para desenvolvimento de funcionalidades específicas, posteriormente integradas via pull requests.
+Uso de Issues e Projects do GitHub para organizar tarefas e acompanhar o progresso.
+
+## 03- Gestão de Equipes e Organização do Projeto
+Para garantir alinhamento entre os membros e controle eficiente do tempo, utilizamos os seguintes processos e ferramentas:
+Ferramentas de Organização:
+Canvas/Miro: Compartilhamento de documentos de apoio (wireframes, textos, roteiro de conteúdo).
+Figma: Criação colaborativa dos wireframes e protótipo das interfaces.
+Comunicação:
+WhatsApp
+Atualizações semanais com revisão de progresso, dificuldades e ajustes de rota.
+
+## 04-  Processo de Desenvolvimento
+Levantamento do problema e definição do escopo
+Discussão sobre o impacto do vício em apostas.
+Identificação de personas e definição de funcionalidades-chave.
+Design centrado no usuário
+Criação de wireframes e protótipos interativos no Figma.
+Discussão sobre acessibilidade, empatia e linguagem adequada.
+Desenvolvimento incremental
+Implementação em HTML, CSS, JavaScript e consumo da API com JSON Server.
+Testes locais contínuos e simulação de rotas de uso do usuário.
+Testes e refinamentos
+Avaliação interna de usabilidade, bugs e melhorias visuais.
+Ajustes de responsividade e validação de conteúdo educativo.
+Documentação e entrega final
+Organização de todos os arquivos, documentação e apresentação dos resultados.
+
 
 ## Relação de ambientes de trabalho
 
