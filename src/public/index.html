@@ -1,78 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/login.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="banner">
-        <img src="./assets/images/banner_ti.png" alt="" />
-      </div>
-      <div class="barra-info">
-        <nav class="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Sobre nós</a></li>
-          </ul>
-        </nav>
-        <div class="dados-usuario">
-          <span id="userInfo"></span>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vício Bet - Plataforma de Apoio contra Dependência em Apostas</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="bg-gray-50">
+    <header class="bg-primary text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold mb-2">VÍCIO BET</h1>
+                <p class="text-xl opacity-90">Plataforma de Apoio contra Dependência em Apostas</p>
+            </div>
         </div>
-      </div>
     </header>
-    <main>
-        <h3>Boas vindas</h3>
-        <p>Sejam bem-vindos à home-page do projeto de TI 1 - Trabalho
-        Interdisciplinar</p>
-        <p>Esse conteúdo que você está lendo foi criado para exemplificar como
-        criar o seu site integrado com o ambiente de login e o back end que
-        utiliza o JSON Server.</p>
-        <p>Ao criar o seu site, você deve adaptar esse código para sua neessidade ou começar do zero, excluindo todo esse conteúdo.
-        </p>
 
-        <h3>Arquivos do site (Front End)</h3>
-        <p>Para montar seu site, edite os arquivos existentes e crie novos arquivos na pasta <code>public</code> que mantem todos os arquivos da parte de Front End do site, a interface que é vista pelo usuário no navegador.</p>
+    <nav class="bg-secondary py-4 sticky top-0 z-50 no-print">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-2">
+                <button class="nav-button active" onclick="showSection('inicio')">
+                    <i class="fas fa-home mr-2"></i>Início
+                </button>
+                <button class="nav-button" onclick="showSection('recursos')">
+                    <i class="fas fa-tools mr-2"></i>Recursos
+                </button>
+                <button class="nav-button" onclick="showSection('autoavaliacao')">
+                    <i class="fas fa-clipboard-check mr-2"></i>Autoavaliação
+                </button>
+                <button class="nav-button" onclick="showSection('controle-financeiro')">
+                    <i class="fas fa-chart-line mr-2"></i>Controle Financeiro
+                </button>
+                <button class="nav-button" onclick="showSection('depoimentos')">
+                    <i class="fas fa-comments mr-2"></i>Depoimentos
+                </button>
+                <button class="nav-button" onclick="showSection('artigos')">
+                    <i class="fas fa-newspaper mr-2"></i>Artigos
+                </button>
+                <button class="nav-button" onclick="showSection('faq')">
+                    <i class="fas fa-question-circle mr-2"></i>FAQ
+                </button>
+                <button class="nav-button" onclick="showSection('contatos')">
+                    <i class="fas fa-phone mr-2"></i>Contatos
+                </button>
+                <button class="nav-button" onclick="showSection('videos')">
+                    <i class="fas fa-video mr-2"></i>Vídeos
+                </button>
+            </div>
+        </div>
+    </nav>
 
-        <p>Nesta pasta <code>public</code>, sugerimos que você organize os arquivos do seu site da seguinte maneira:</p>
-        <ul>
-            <li><strong>Pasta <code>assets</code></strong>: os arquivos de formatação (CSS), os scripts (JS), as imagens utilizadas no site (JPG, PNG, GIF, SVG, etc), fontes (TTF) e outros arquivos gerais utilizados por todo o site.</li>
-            <li><strong>Pasta <code>modulos</code></strong>: os arquivos utilizados na implementação das funcionalidades do site. Separe uma sub-pasta para cada novo módulo ou funcionalidade. Pode também ser utilizado para dividir o trabalho de cada membro do grupo.</li>
-            <li><strong>Arquivo <code>index.html</code></strong>: arquivo que representa a "home page" do site.</li>
-        </ul>
+    <main class="container mx-auto px-4 py-8">
 
-        <h3>Módulo de Login</h3>
-        <p>O módulo de login de usuário traz uma funcionalidade completa de registro de usuários e validação de login e senha.</p>
-        <h4>Integração do site com módulo de Login</h4>
-        <p>Para utilizar o módulo de login, basta incluir o script na sua página colocando a seguinte tag no HEAD</p>
-        <pre>&lt;script src="./assets/js/login.js"&gt&lt;script&gt;</pre>
-        <p>Ao incluir o script de login na sua página, caso o usuário ainda não tenha efetuado login, ao acessar a home-page do site, o navegador será direcionado para o formulário de <strong>Identificação de Usuário</strong>. Se o usuário informar corretamente o login e a senha, o navegador será direcionado para a Home-Page.</p>
-        <h4>Sessão do usuário logado</h4>
-        <p>Assim que o usuário se identifica e acessa a parte privada do site, o módulo de login cria uma chave do sessionStorage do navegador com o título <strong>usuarioCorrente</strong> e cujo conteúdo é um objeto com os atributos: id, nome, login, senha e email. </p>
-        <h4>Base de dados de usuários</h4>
-        <p>Inicialmente o módulo de login é configurado com dois usuários: </p>
-        <ul>
-            <li>admin - Senha: 123</li>
-            <li>user - Senha: 123</li>
-        </ul>
+        <section id="inicio" class="section-content active">
+            <div class="max-w-4xl mx-auto">
+                <div class="emergency-contact">
+                    <h2 class="text-3xl font-bold mb-2">Precisa de Ajuda Imediata?</h2>
+                    <div class="text-4xl font-bold mb-2"><i class="fas fa-phone"></i> 0800-888-0088</div>
+                    <p class="text-lg">Linha de apoio 24h - Gratuita e Confidencial</p>
+                </div>
 
-        <h3>Servidor Web e API baseada no JSON Server (Back end)</h3>
-        <p>O ambiente de trabalho disponibilizado para suportar o Trabalho Interdisciplinar 1 é baseado no Node.js. A aplicação de back end utiliza o módulo JSON Server para criar um Servidor Web que prove duas estruturas separadas:
-        <ul>
-            <li><strong>Arquivos estáticos (Pasta <code>public</code>)</strong>: da acesso aos arquivos utilizados no front end (HTML, CSS e JavaScript).</li>
-            <li><strong>API RESTful (pasta <code>db</code>)</strong>: uma interface para acesso aos dados definidos no arquivo db.json.</li>
-        </ul></p>
+                <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-bold text-primary mb-6">Quem Somos e Por Que Existimos</h2>
+                    <p class="text-lg mb-6">
+                        O Vícios Bet nasceu da necessidade urgente de oferecer suporte especializado para pessoas que desenvolveram dependência em apostas esportivas e suas famílias. Somos uma plataforma dedicada exclusivamente à recuperação, tratamento e prevenção do vício em jogos de azar online.
+                    </p>
 
-        <h4>Arquitetura do site</h4>
-        <p>A imagem que se segue apresenta a arquitetura desse ambiente, mostrando as duas refletindo as pastas desse ambiente.</p>
-        <p><img class="img-fluid d-block w-75 m-auto" src="./assets/images/servidor.png" alt=""></p>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Nossa História</h3>
 
-        <h4>Arquivo db.json</h4>
-        <p>O arquivo JSON utilizado para definição das estruturas dos dados providos pela aplicação é localizado na pasta db e tem um formato como o mostrado no exemplo da figura a seguir. Esse arquivo define uma estrutura hipotética de contatos que descreve itens com os seguintes atributos: <code>id</code>, <code>nome</code> e <code>cidade</code>. para o JSON Server, é fundamental que toda estrutura tenha um atributo de identificador de nome <code>id</code>.</p>
-        <p><img class="img-fluid d-block w-50 m-auto" src="./assets/images/arquivo_json.png" alt=""></p>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="card p-6">
+                            <h4 class="text-xl font-bold mb-3 text-primary">
+                                <i class="fas fa-play-circle mr-2"></i>O Início
+                            </h4>
+                            <p>O Vícios Bet foi fundado em 2025 por um grupo de estudantes da PUC Minas que identificaram a falta de recursos específicos para apostas esportivas online. Diferentemente de outros vícios, as apostas esportivas apresentam características únicas que exigem abordagens especializadas de tratamento.</p>
+                        </div>
+
+                        <div class="card p-6">
+                            <h4 class="text-xl font-bold mb-3 text-primary">
+                                <i class="fas fa-exclamation-triangle mr-2"></i>O Problema Real
+                            </h4>
+                            <p>Estudos mostram que mais de 2 milhões de brasileiros desenvolveram problemas com apostas esportivas nos últimos 3 anos. A facilidade de acesso e a naturalização das apostas tornam esse um problema crescente e urgente.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <h3 class="text-2xl font-bold text-primary mb-6">Fatos Surpreendentes sobre Apostas</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="card p-6 text-center">
+                            <i class="fas fa-home text-4xl text-primary mb-4"></i>
+                            <h4 class="font-bold mb-2">Casa Sempre Vence</h4>
+                            <p class="text-sm">As casas de apostas trabalham com "margem de lucro", garantindo percentual de ganho independente do resultado.</p>
+                        </div>
+
+                        <div class="card p-6 text-center">
+                            <i class="fas fa-chart-line text-4xl text-primary mb-4"></i>
+                            <h4 class="font-bold mb-2">Odds Ajustadas</h4>
+                            <p class="text-sm">As odds não refletem probabilidades reais, mas são ajustadas para garantir lucro à casa.</p>
+                        </div>
+
+                        <div class="card p-6 text-center">
+                            <i class="fas fa-percentage text-4xl text-primary mb-4"></i>
+                            <h4 class="font-bold mb-2">Poucos Lucram</h4>
+                            <p class="text-sm">Apenas 3% dos apostadores esportivos conseguem lucrar a longo prazo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Recursos Personalizados</h2>
+                
+                    <div class="card p-6">
+                        <i class="fas fa-info-circle text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Sobre Nós</h3>
+                        <p class="mb-4">Conheça mais sobre a história, missão e valores do Vício Bet.</p>
+                        <button class="bg-primary text-white px-4 py-2 rounded hover:bg-opacity-80 transition-colors" onclick="showSection('inicio')">
+                            Conhecer História
+                        </button>
+                    </div>
+
+                    <div class="card p-6">
+                        <i class="fas fa-book text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Biblioteca de Conteúdos</h3>
+                        <p class="mb-4">Acesse nossa biblioteca com artigos, vídeos e materiais informativos sobre dependência em apostas.</p>
+                        <button class="bg-primary text-white px-4 py-2 rounded hover:bg-opacity-80 transition-colors" onclick="showSection('artigos')">
+                            Acessar Biblioteca
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="autoavaliacao" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Autoavaliação de Risco</h2>
+                <p class="text-center mb-8 text-lg">"Compreenda seus hábitos e descubra caminhos para uma vida mais equilibrada."</p>
+
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div id="quiz-container">
+                        <div class="quiz-question">
+                            <h3 class="font-bold mb-4">1. Com que frequência você pensa em apostas?</h3>
+                            <div class="quiz-option">
+                                <input type="radio" name="q1" value="1" id="q1a">
+                                <label for="q1a">Raramente ou nunca</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q1" value="2" id="q1b">
+                                <label for="q1b">Algumas vezes por semana</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q1" value="3" id="q1c">
+                                <label for="q1c">Diariamente</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q1" value="4" id="q1d">
+                                <label for="q1d">Constantemente durante o dia</label>
+                            </div>
+                        </div>
+
+                        <div class="quiz-question">
+                            <h3 class="font-bold mb-4">2. Quanto você gasta em apostas por mês?</h3>
+                            <div class="quiz-option">
+                                <input type="radio" name="q2" value="1" id="q2a">
+                                <label for="q2a">Menos de R$ 100</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q2" value="2" id="q2b">
+                                <label for="q2b">R$ 100 - R$ 500</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q2" value="3" id="q2c">
+                                <label for="q2c">R$ 500 - R$ 1000</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q2" value="4" id="q2d">
+                                <label for="q2d">Mais de R$ 1000</label>
+                            </div>
+                        </div>
+
+                        <div class="quiz-question">
+                            <h3 class="font-bold mb-4">3. Você já mentiu sobre quanto gasta em apostas?</h3>
+                            <div class="quiz-option">
+                                <input type="radio" name="q3" value="1" id="q3a">
+                                <label for="q3a">Nunca</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q3" value="2" id="q3b">
+                                <label for="q3b">Raramente</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q3" value="3" id="q3c">
+                                <label for="q3c">Algumas vezes</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q3" value="4" id="q3d">
+                                <label for="q3d">Frequentemente</label>
+                            </div>
+                        </div>
+
+                        <div class="quiz-question">
+                            <h3 class="font-bold mb-4">4. Como você reagiria se não pudesse apostar por uma semana?</h3>
+                            <div class="quiz-option">
+                                <input type="radio" name="q4" value="1" id="q4a">
+                                <label for="q4a">Sem problemas</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q4" value="2" id="q4b">
+                                <label for="q4b">Um pouco irritado</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q4" value="3" id="q4c">
+                                <label for="q4c">Muito ansioso</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q4" value="4" id="q4d">
+                                <label for="q4d">Extremamente agitado</label>
+                            </div>
+                        </div>
+
+                        <div class="quiz-question">
+                            <h3 class="font-bold mb-4">5. Você já tentou parar de apostar e não conseguiu?</h3>
+                            <div class="quiz-option">
+                                <input type="radio" name="q5" value="1" id="q5a">
+                                <label for="q5a">Nunca tentei parar</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q5" value="2" id="q5b">
+                                <label for="q5b">Consegui parar quando quis</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q5" value="3" id="q5c">
+                                <label for="q5c">Tentei algumas vezes</label>
+                            </div>
+                            <div class="quiz-option">
+                                <input type="radio" name="q5" value="4" id="q5d">
+                                <label for="q5d">Tentei várias vezes sem sucesso</label>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-8">
+                            <button onclick="calcularResultado()" class="bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-opacity-80 transition-colors">
+                                <i class="fas fa-calculator mr-2"></i>Calcular Resultado
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="resultado-container" class="hidden mt-8">
+                        <h3 class="text-2xl font-bold text-primary mb-4">Resultado da Avaliação</h3>
+                        <div id="resultado-content" class="bg-gray-50 p-6 rounded-lg">
+                            </div>
+                        <div class="text-center mt-6">
+                            <button onclick="reiniciarQuiz()" class="bg-secondary text-black px-6 py-2 rounded font-bold hover:bg-opacity-80 transition-colors">
+                                Fazer Nova Avaliação
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="controle-financeiro" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Controle de Gastos</h2>
+                <p class="text-center mb-8 text-lg">"Cuidar do seu dinheiro é cuidar de você: monitore seus gastos e fortaleça sua liberdade."</p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold mb-4 text-primary">
+                            <i class="fas fa-plus-circle mr-2"></i>Adicionar Gasto
+                        </h3>
+                        <div class="mb-4">
+                            <input type="text" id="descricao-gasto" placeholder="Descrição do gasto" class="w-full p-3 border border-gray-300 rounded-lg mb-3">
+                            <input type="number" id="valor-gasto" placeholder="Valor (R$)" class="w-full p-3 border border-gray-300 rounded-lg mb-3" step="0.01">
+                            <button onclick="adicionarGasto()" class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-opacity-80 transition-colors">
+                                Adicionar Gasto
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold mb-4 text-primary">
+                            <i class="fas fa-chart-pie mr-2"></i>Análise dos Gastos
+                        </h3>
+                        <div style="height: 300px;">
+                            <canvas id="grafico-gastos"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
+                    <h3 class="text-xl font-bold mb-4 text-primary">
+                        <i class="fas fa-list mr-2"></i>Gastos Registrados
+                    </h3>
+                    <div id="lista-gastos" class="mb-4">
+                        </div>
+                    <div class="border-t pt-4">
+                        <div class="flex justify-between items-center text-xl font-bold">
+                            <span>Total Gasto:</span>
+                            <span id="total-gastos" class="text-red-600">R$ 0,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
+                    <h3 class="text-xl font-bold mb-4 text-primary">
+                        <i class="fas fa-analytics mr-2"></i>Análise de Risco
+                    </h3>
+                    <div id="analise-financeira" class="bg-gray-50 p-4 rounded-lg">
+                        <p class="text-gray-600">Adicione gastos para ver sua análise de risco financeiro.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Depoimentos de Superação</h2>
+                <p class="text-center mb-8 text-lg">Histórias reais de pessoas que superaram a dependência em apostas</p>
+
+                <div id="depoimentos-container">
+                    </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
+                    <h3 class="text-xl font-bold mb-4 text-primary">
+                        <i class="fas fa-edit mr-2"></i>Compartilhe sua História
+                    </h3>
+                    <div class="mb-4">
+                        <input type="text" id="nome-depoimento" placeholder="Seu nome (ou iniciais)" class="w-full p-3 border border-gray-300 rounded-lg mb-3">
+                        <textarea id="mensagem-depoimento" placeholder="Compartilhe sua experiência..." class="w-full p-3 border border-gray-300 rounded-lg mb-3" rows="4"></textarea>
+                        <button onclick="adicionarDepoimento()" class="bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-80 transition-colors">
+                            Compartilhar Depoimento
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="artigos" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Artigos e Materiais Informativos</h2>
+                <p class="text-center mb-8 text-lg">Conteúdos especializados sobre dependência em apostas</p>
+
+                <div id="artigos-container" class="grid md:grid-cols-2 gap-6">
+                    </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Perguntas Frequentes</h2>
+
+                <div id="faq-container">
+                    </div>
+            </div>
+        </section>
+
+        <section id="contatos" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Contatos Úteis</h2>
+                <p class="text-center mb-8 text-lg">Encontre profissionais, ONGs e clínicas especializadas em sua cidade</p>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+                    <h3 class="text-xl font-bold mb-4 text-primary">Selecione uma cidade:</h3>
+                    <select id="select-cidade" onchange="filtrarContatos()" class="w-full p-3 border border-gray-300 rounded-lg">
+                        <option value="">Escolha uma cidade</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="Contagem">Contagem</option>
+                        <option value="Betim">Betim</option>
+                    </select>
+                </div>
+
+                <div id="contatos-container">
+                    <div class="text-center text-2xl font-bold text-primary py-8">
+                        PROCURE AJUDA, VOCÊ NÃO ESTÁ SOZINHO!
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="section-content">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-primary mb-8 text-center">Vídeos Educativos</h2>
+                <p class="text-center mb-8 text-lg">Conteúdos em vídeo para ajudar na sua jornada de recuperação</p>
+
+                <div id="videos-container">
+                    </div>
+            </div>
+        </section>
     </main>
-  </body>
+
+    <footer class="bg-primary text-white py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4">VÍCIO BET</h3>
+            <p class="mb-4">Plataforma de Apoio contra Dependência em Apostas</p>
+            <div class="emergency-contact bg-red-600 rounded-lg py-4 px-6 inline-block">
+                <div class="text-2xl font-bold">EMERGÊNCIA: 0800-888-0088</div>
+                <div>Linha gratuita 24h</div>
+            </div>
+            <div class="mt-6 text-sm opacity-75">
+                © 2025 Vício Bet - Desenvolvido por estudantes da PUC Minas
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
 </html>
