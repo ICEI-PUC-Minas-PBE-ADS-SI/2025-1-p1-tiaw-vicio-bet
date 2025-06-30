@@ -1,25 +1,200 @@
 {
-  "usuarios": [
+  "depoimentos": [
     {
-      "id": 1,
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "nome": "Carlos M.",
+      "mensagem": "Comecei apostando em jogos de futebol por diversão, mas em poucos meses estava endividado, mentindo para minha família e vendendo objetos pessoais. Foi difícil admitir, mas precisei de ajuda profissional para sair desse ciclo. Hoje, faço terapia e participo de grupos de apoio. Compartilho minha história para mostrar que é possível recomeçar.",
+      "data": "10/05/2025"
     },
     {
-      "id": 2,
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "nome": "Julia R.",
+      "mensagem": "Perdi meu emprego e quase meu casamento por causa das apostas online. Eu achava que controlava, mas a verdade é que estava sempre tentando recuperar o que perdi. Demorou, mas consegui dar um basta. Encontrei forças em minha filha e decidi mudar. Ainda luto diariamente, mas estou vencendo, um dia de cada vez.",
+      "data": "09/05/2025"
     },
     {
-      "login": "rommel",
-      "senha": "123",
-      "nome": "Rommel",
-      "email": "rommel@gmail.com",
-      "id": 3
+      "nome": "Felipe T.",
+      "mensagem": "A adrenalina de ganhar era viciante, mas as perdas me levaram à depressão. Isolei-me de todos e quase perdi tudo. A ajuda veio através de um amigo que percebeu minha situação. Estou há 6 meses sem apostar e reconstruindo minha vida. Cada dia é uma vitória.",
+      "data": "08/05/2025"
+    }
+  ],
+  "artigos": [
+    {
+      "url": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2024/09/26/brasil-tem-epidemia-de-vicio-em-bets-queria-r-20-mil-por-dia-e-saia-sem-nada.htm",
+      "titulo": "Brasil tem epidemia de vício em bets",
+      "data": "26/09/2024",
+      "fonte": "UOL"
+    },
+    {
+      "url": "https://pp.nexojornal.com.br/perguntas-que-a-ciencia-ja-respondeu/2024/10/29/o-vicio-em-apostas-sinais-consequencias-tratamentos-e-recomendacoes-em-9-pontos",
+      "titulo": "O vício em apostas: sinais, consequências, tratamentos e recomendações em 9 pontos",
+      "data": "29/10/2024",
+      "fonte": "Nexo Jornal"
+    },
+    {
+      "url": "https://www.anahp.com.br/saude-da-saude/vicio-em-apostas-online-um-problema-em-ascensao-e-com-riscos-a-saude-mental/",
+      "titulo": "Vício em apostas online: um problema em ascensão e com riscos à saúde mental",
+      "data": "19/09/2024",
+      "fonte": "ANAHP"
+    },
+    {
+      "url": "https://www.bbc.com/portuguese/articles/cq52lg1g898o",
+      "titulo": "Transtorno do jogo: o que acontece no cérebro de jogadores compulsivos?",
+      "data": "2024-11-21",
+      "fonte": "BBC News Brasil"
+    },
+    {
+      "url": "https://blog.abrapp.org.br/blog/artigo-apostas-online-e-a-necessidade-de-uma-nova-cultura-de-planejamento-financeiro-por-gleisson-rubin/",
+      "titulo": "Artigo: Apostas online e a necessidade de uma nova cultura de planejamento financeiro – Por Gleisson Rubin",
+      "data": "2024-11-05",
+      "fonte": "Abrapp em Foco"
+    },
+    {
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/mercado-de-apostas-no-brasil-desafios-juridicos-e-responsabilidade-social",
+      "titulo": "Mercado de apostas no Brasil: desafios jurídicos e responsabilidade social",
+      "data": "2024-11-14",
+      "fonte": "JOTA"
+    },
+    {
+      "url": "https://al1.com.br/informacao/artigos/150290/apostas-online-e-seus-reflexos-no-direito-do-trabalho",
+      "titulo": "Apostas online e seus reflexos no Direito do Trabalho",
+      "data": "2025-05-20",
+      "fonte": "AL1"
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "Dr. Ricardo Mendes",
+      "cidade": "Belo Horizonte",
+      "categoria": "Profissional",
+      "telefone": "(31) 9876-5432",
+      "website": "https://www.drricardomendes.com.br"
+    },
+    {
+      "nome": "Instituto de Apoio ao Jogador",
+      "cidade": "Belo Horizonte",
+      "categoria": "ONG",
+      "telefone": "(31) 3333-4444",
+      "website": "https://www.institutoapoiador.com.br"
+    },
+    {
+      "nome": "Clínica Esperança",
+      "cidade": "Belo Horizonte",
+      "categoria": "Clínica",
+      "telefone": "(31) 2222-3333",
+      "website": "https://www.clinicaesperanca.com.br"
+    },
+    {
+      "nome": "Dra. Ana Paula Costa",
+      "cidade": "Contagem",
+      "categoria": "Profissional",
+      "telefone": "(31) 5555-6666",
+      "website": "https://www.draanapaula.com.br"
+    },
+    {
+      "nome": "Centro de Reabilitação Nova Vida",
+      "cidade": "Contagem",
+      "categoria": "Clínica",
+      "telefone": "(31) 7777-8888",
+      "website": "https://www.centronovavida.com.br"
+    },
+    {
+      "nome": "Dr. José Silva",
+      "cidade": "Betim",
+      "categoria": "Profissional",
+      "telefone": "(31) 9999-0000",
+      "website": "https://www.drjosesilva.com.br"
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "O que é considerado vício em apostas?",
+      "resposta": "O vício em apostas ocorre quando a pessoa perde o controle sobre suas apostas, continua apostando mesmo diante de prejuízos e dificuldades, e sente uma necessidade constante de apostar para sentir alívio ou prazer."
+    },
+    {
+      "pergunta": "Quais são os principais sinais de dependência em apostas?",
+      "resposta": "Alguns sinais incluem: mentir sobre apostas, apostar valores cada vez maiores, tentar recuperar perdas ('perseguir prejuízos'), negligenciar responsabilidades, e sentir ansiedade ou irritação quando não pode apostar."
+    },
+    {
+      "pergunta": "Como posso buscar ajuda se acho que estou viciado?",
+      "resposta": "Reconhecer o problema é o primeiro passo. Procure apoio de profissionais (psicólogos, terapeutas), grupos de apoio, familiares e amigos. Existem também linhas de apoio e sites especializados em dependência de jogos."
+    },
+    {
+      "pergunta": "Como apoiar um familiar ou amigo que está passando por isso?",
+      "resposta": "Ofereça apoio sem julgamentos, incentive a busca por ajuda profissional, estabeleça limites saudáveis, e cuide também da sua própria saúde mental. Evite dar dinheiro ou facilitar o acesso a apostas."
+    },
+    {
+      "pergunta": "É possível se recuperar completamente do vício em apostas?",
+      "resposta": "Sim, é possível se recuperar com o tratamento adequado, apoio profissional e comprometimento pessoal. A recuperação é um processo contínuo que requer dedicação e, muitas vezes, mudanças significativas no estilo de vida."
+    },
+    {
+      "pergunta": "Por favor, insira sua pergunta aqui.",
+      "resposta": "Por favor, insira a resposta aqui."
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/embed/Kf5b8rM8z80",
+      "data": "15/01/2025"
+    },
+    {
+      "url": "https://www.youtube.com/embed/OOWxNrehlM4",
+      "data": "22/02/2025"
+    },
+    {
+      "url": "https://www.youtube.com/embed/zqHV9hHAXmg?start=2",
+      "data": "05/04/2025"
+    },
+    {
+      "url": "https://www.youtube.com/embed/fuDjyXJhuCg",
+      "data": "2025-06-29"
+    },
+    {
+      "url": "https://www.youtube.com/embed/3grbr9SWzhg",
+      "data": "2025-06-29"
+    },
+    {
+      "url": "https://www.youtube.com/embed/u8pfBIbgDxE",
+      "data": "2025-06-29"
+    },
+    {
+      "url": "https://www.youtube.com/embed/SYaGxW49CYE",
+      "data": "2025-06-29"
+    }
+  ],
+  "analiseFinanceira": [
+    {
+      "min": 0,
+      "max": 199,
+      "nivel": "Controle excelente",
+      "mensagem": "Parabéns! Seu controle financeiro está saudável e equilibrado.",
+      "cor": "#10b981"
+    },
+    {
+      "min": 200,
+      "max": 399,
+      "nivel": "Atenção leve",
+      "mensagem": "Fique atento! Alguns gastos podem ser ajustados para manter o equilíbrio.",
+      "cor": "#f59e0b"
+    },
+    {
+      "min": 400,
+      "max": 699,
+      "nivel": "Risco moderado",
+      "mensagem": "Cuidado! Seus gastos começam a impactar seu orçamento.",
+      "cor": "#f97316"
+    },
+    {
+      "min": 700,
+      "max": 999,
+      "nivel": "Alto risco",
+      "mensagem": "Alerta! Seus gastos estão elevados e podem comprometer suas finanças.",
+      "cor": "#ef4444"
+    },
+    {
+      "min": 1000,
+      "max": "Infinity",
+      "nivel": "Risco crítico",
+      "mensagem": "Atenção urgente! Seu padrão de gastos indica risco grave à sua estabilidade financeira.",
+      "cor": "#dc2626"
     }
   ]
 }
